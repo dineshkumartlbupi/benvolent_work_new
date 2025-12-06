@@ -93,7 +93,7 @@ class AuthController extends GetxController {
         print('Android Device Token: $deviceToken');
       }
 
-      if (deviceToken == null || deviceToken.isEmpty) {
+      if (deviceToken!.isEmpty) {
         throw Exception("Failed to get device token from Firebase.");
       }
 

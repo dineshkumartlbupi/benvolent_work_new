@@ -1,7 +1,6 @@
 import 'package:benevolent_crm_app/app/modules/campaign_summary/controllers/campaign_summary_controller.dart';
 import 'package:benevolent_crm_app/app/modules/campaign_summary/views/widgets/campaign_filter_bottom_sheet.dart';
 import 'package:benevolent_crm_app/app/themes/app_color.dart';
-import 'package:benevolent_crm_app/app/themes/app_themes.dart' hide AppThemes;
 import 'package:benevolent_crm_app/app/themes/text_styles.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';

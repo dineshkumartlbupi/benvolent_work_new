@@ -4,11 +4,6 @@ import 'package:benevolent_crm_app/app/services/api/api_end_points.dart';
 import 'package:benevolent_crm_app/app/utils/error_handler.dart';
 import 'package:dio/dio.dart';
 
-import 'package:benevolent_crm_app/app/modules/campaign_summary/models/campaign_summary_model.dart';
-import 'package:benevolent_crm_app/app/services/api/api_client.dart';
-import 'package:benevolent_crm_app/app/services/api/api_end_points.dart';
-import 'package:benevolent_crm_app/app/utils/error_handler.dart';
-import 'package:dio/dio.dart';
 
 class CampaignSummaryService {
   final ApiClient _apiClient;
